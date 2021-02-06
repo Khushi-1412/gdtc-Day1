@@ -1,0 +1,130 @@
+body{
+    background-color: red;
+    background-image: url("https://wallpapercave.com/wp/wp2581365.jpg");
+}
+html{
+    box-sizing: border-box;
+}
+.parta{
+    background-image: url(https://cdn.hipwallpaper.com/m/9/63/kcN7UR.jpg);
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: contain;
+   padding: 150px;
+   margin: 0px 300px 0px;
+   color:black;
+    
+}
+.para{
+    font-size: 12px;
+    font-weight: bold;
+}
+.button1{
+    background-color: black;
+    color:white;
+}
+.heading3{
+    text-align:center;
+}
+    
+.nice{
+    background-color: white;
+    background-image: url(https://cdn.hipwallpaper.com/m/70/51/28mtGk.jpg);
+    display:flex;
+    justify-content: center;
+    align-content: flex-center;
+    flex-direction: column;
+    margin: 0px 300px 0px;
+    background-color: white;
+    color:black;
+    padding: 50px;
+
+
+}
+.heading2{
+  text-align: center;
+  text-decoration: underline;
+}
+.paragraph1{
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration:
+
+}
+.skills{
+    background-color: white;
+    background-image: url(https://cdn.hipwallpaper.com/m/70/51/28mtGk.jpg);
+    display:flex;
+    justify-content: center;
+    align-content: flex-center;
+    flex-direction: column;
+    margin: 0px 300px 0px;
+    color:black;
+    padding: 50px;
+
+
+}
+.about{
+    background-color: white;
+    background-image: url(https://cdn.hipwallpaper.com/m/70/51/28mtGk.jpg);
+    display:flex;
+    justify-content: center;
+    align-content: flex-center;
+    flex-direction: column;
+    margin: 0px 300px 0px;
+    color:black;
+    padding: 50px;
+    text-align: justify;
+    font-weight:450;
+ 
+}
+.container{
+    background-color:black;
+    color:white;
+}
+.Other_activities{
+    background-color: white;
+    background-image: url(https://cdn.hipwallpaper.com/m/70/51/28mtGk.jpg);
+    display:flex;
+    justify-content: center;
+    align-content: flex-center;
+    flex-direction: column;
+    margin: 0px 300px 0px;
+    color:black;
+    padding: 50px;
+    text-align: justify;
+    font-weight:normal;
+}
+.end{
+    background-image: url(https://cdn.hipwallpaper.com/m/9/63/kcN7UR.jpg);
+    display:flex;
+    justify-content: center;
+    align-content: flex-center;
+    flex-direction: column;
+    margin: 0px 300px 0px;
+    color:black;
+    padding: 50px;
+    text-align: justify;
+    font-weight:normal;
+    text-align:center;
+    font-weight:bold;
+}
+.end1{
+    text-align:start;
+    colorblack;
+    font-size:15px;
+
+}
+@media(max-width:600px){
+.parta,.nice,.skills,.Other_activities
+{
+    flex-direction: row;
+	justify-content:center;
+	align-items: center;
+
+
+}
+}
